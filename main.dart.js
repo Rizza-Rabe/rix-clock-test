@@ -104357,7 +104357,7 @@ $S:0}
 A.aqs.prototype={
 EY(){var s=0,r=A.m(t.S),q,p=2,o,n,m,l,k,j,i,h,g,f,e
 var $async$EY=A.i(function(a,b){if(a===1){o=b
-s=p}while(true)switch(s){case 0:f=A.eF("https://check-host.net/check-ping?host=check-host.net&max_nodes=3",0,null)
+s=p}while(true)switch(s){case 0:f=A.eF("https://check-host.net/check-ping?host=www.google.com&max_nodes=3",0,null)
 p=4
 n=new A.bc(Date.now(),!1)
 h=t.N
@@ -114762,7 +114762,7 @@ B.Zv=new A.a2("Gallery",null,B.b8,null,null,null,null,null,null,null)
 B.Zw=new A.a2("Delete Encoder",null,B.cZ,null,null,null,null,null,null,null)
 B.Zy=new A.a2("or use QR Code scanner",null,null,null,null,null,null,null,null,null)
 B.Zz=new A.a2("Please type the CONFIRM word in the text field to confirm your assignment deletion. Please take note that you cannot clock-in without the assignment.",null,B.bV,null,null,null,null,null,null,null)
-B.ZA=new A.a2("Version: 1.3.2 alpha",null,B.lM,null,null,null,null,null,null,null)
+B.ZA=new A.a2("Version: 1.3.3 alpha",null,B.lM,null,null,null,null,null,null,null)
 B.FK=new A.y(1929379840)
 B.lQ=new A.u(!0,B.FK,null,null,null,null,18,B.Z,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.ZC=new A.a2("Club Details",null,B.lQ,null,null,null,null,null,null,null)
