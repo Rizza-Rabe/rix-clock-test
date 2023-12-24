@@ -28139,7 +28139,7 @@ awG:function awG(){},
 aCs:function aCs(){},
 ao0:function ao0(){},
 ao1:function ao1(a){this.a=a},
-a3H(a){return A.L6(new A.aTz(a,null),t.Wd)},
+a3H(a,b){return A.L6(new A.aTz(a,b),t.Wd)},
 bm_(a,b,c){return A.L6(new A.aU7(a,c,b,null),t.Wd)},
 bm2(a){return A.L6(new A.aUb(a,null),t.o)},
 L6(a,b){return A.bjL(a,b,b)},
@@ -104355,18 +104355,20 @@ A.ad6.prototype={
 $0(){},
 $S:0}
 A.aqs.prototype={
-EY(){var s=0,r=A.m(t.S),q,p=2,o,n,m,l,k,j,i,h,g
+EY(){var s=0,r=A.m(t.S),q,p=2,o,n,m,l,k,j,i,h,g,f,e
 var $async$EY=A.i(function(a,b){if(a===1){o=b
-s=p}while(true)switch(s){case 0:h="https://check-host.net/check-ping?host=check-host.net&max_nodes=3"
+s=p}while(true)switch(s){case 0:f=A.eF("https://check-host.net/check-ping?host=check-host.net&max_nodes=3",0,null)
 p=4
 n=new A.bc(Date.now(),!1)
+h=t.N
+m=A.aC(["Accept","application/json"],h,h)
 s=7
-return A.o(A.a3H(A.eF(h,0,null)),$async$EY)
-case 7:m=b
-if(m.b===200){l=new A.bc(Date.now(),!1)
-k=B.j.bH(A.cV(0,0,l.a-n.a,0).a,1000)
-A.e(k)
-q=k
+return A.o(A.a3H(f,m),$async$EY)
+case 7:l=b
+if(l.b===200){k=new A.bc(Date.now(),!1)
+j=B.j.bH(A.cV(0,0,k.a-n.a,0).a,1000)
+A.e(j)
+q=j
 s=1
 break}else{q=-1
 s=1
@@ -104374,9 +104376,9 @@ break}p=2
 s=6
 break
 case 4:p=3
-g=o
-j=A.x(g)
-A.e(j)
+e=o
+i=A.x(e)
+A.e(i)
 q=-2
 s=1
 break
@@ -104501,7 +104503,7 @@ n="https://api.sunrisesunset.io/json?lat="+a+"&lng="+b+"&date_start="+A.dx("yyyy
 A.e(n)
 p=4
 s=7
-return A.o(A.a3H(A.eF(n,0,null)),$async$yw)
+return A.o(A.a3H(A.eF(n,0,null),null),$async$yw)
 case 7:m=e
 if(m.b===200){j=m
 A.La(A.L_(j.e).c.a.h(0,"charset")).dK(0,j.w)
@@ -104532,7 +104534,7 @@ s=p}while(true)switch(s){case 0:i="https://api.sunrisesunset.io/json?lat="+a+"&l
 A.e(i)
 p=4
 s=7
-return A.o(A.a3H(A.eF(i,0,null)),$async$yv)
+return A.o(A.a3H(A.eF(i,0,null),null),$async$yv)
 case 7:n=d
 if(n.b===200){k=n
 A.La(A.L_(k.e).c.a.h(0,"charset")).dK(0,k.w)
@@ -104608,7 +104610,7 @@ As(){var s=0,r=A.m(t.W7),q,p=2,o,n,m,l,k,j,i,h,g
 var $async$As=A.i(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.o(A.a3H(A.eF(u.n,0,null)),$async$As)
+return A.o(A.a3H(A.eF(u.n,0,null),null),$async$As)
 case 7:n=b
 if(n.b===200){i=n
 m=B.bu.dK(0,A.La(A.L_(i.e).c.a.h(0,"charset")).dK(0,i.w))
@@ -104640,7 +104642,7 @@ p=4
 f.a=0
 n=A.tm(B.o7,new A.aE3(f))
 s=7
-return A.o(A.a3H(A.eF(u.n,0,null)),$async$A8)
+return A.o(A.a3H(A.eF(u.n,0,null),null),$async$A8)
 case 7:m=b
 J.b91(n)
 if(m.b===200){h=m
