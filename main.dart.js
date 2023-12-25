@@ -102039,35 +102039,37 @@ A.Z(g,f,!0)
 o.fr=J.D(g.a.h(0,"value"))
 s=2
 return A.o(o.IG(),$async$oe)
-case 2:s=3
-return A.o(o.mu(),$async$oe)
-case 3:h=o.k1
-s=h!=null||o.k2!=null?4:5
+case 2:s=o.id!=null?3:4
 break
-case 4:q=7
+case 3:s=5
+return A.o(o.mu(),$async$oe)
+case 5:case 4:h=o.k1
+s=h!=null||o.k2!=null?6:7
+break
+case 6:q=9
 h.toString
 g=o.k2
 g.toString
-s=10
+s=12
 return A.o(o.At(h,g),$async$oe)
-case 10:q=1
-s=9
+case 12:q=1
+s=11
 break
-case 7:q=6
+case 9:q=8
 e=p
 n=A.x(e)
 new A.a6().aT("Failed to get your sunset and sunrise. "+A.e(n))
-s=9
+s=11
 break
-case 6:s=1
+case 8:s=1
 break
-case 9:case 5:q=12
-s=15
+case 11:case 7:q=14
+s=17
 return A.o(o.C6(),$async$oe)
-case 15:q=1
-s=14
+case 17:q=1
+s=16
 break
-case 12:q=11
+case 14:q=13
 d=p
 m=A.x(d)
 h=o.c
@@ -102079,17 +102081,19 @@ h.e=!1
 h.c="Exit"
 g=o.c
 g.toString
-h.ac(g,new A.aHd(o))}s=14
+h.ac(g,new A.aHd(o))}s=16
 break
-case 11:s=1
+case 13:s=1
 break
-case 14:return A.k(null,r)
+case 16:return A.k(null,r)
 case 1:return A.j(p,r)}})
 return A.l($async$oe,r)},
-IG(){var s=0,r=A.m(t.H),q=this,p,o
+IG(){var s=0,r=A.m(t.H),q,p=this,o,n
 var $async$IG=A.i(function(a,b){if(a===1)return A.j(b,r)
-while(true)switch(s){case 0:for(p=q.d,o=0;o<p.length;++o){if(J.c(J.D(p[o].h(0,"memberAccountNumber")),q.ch)){++q.p2
-if(q.id==null)q.id=p[o].h(0,"memberPushKey")}if(J.c(J.D(p[o].h(0,"memberAccountNumber")),q.ch)&&p[o].h(0,"arrivalDate")!=null)++q.p3}return A.k(null,r)}})
+while(true)switch(s){case 0:for(o=p.d,n=0;n<o.length;++n){if(J.c(J.D(o[n].h(0,"memberAccountNumber")),p.ch)){++p.p2
+if(p.id==null)p.id=o[n].h(0,"memberPushKey")}if(J.c(J.D(o[n].h(0,"memberAccountNumber")),p.ch)&&o[n].h(0,"arrivalDate")!=null)++p.p3}s=1
+break
+case 1:return A.k(q,r)}})
 return A.l($async$IG,r)},
 C6(){var s=0,r=A.m(t.H),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d,c,b
 var $async$C6=A.i(function(a,a0){if(a===1){o=a0
@@ -102300,9 +102304,7 @@ A.Z(e,$.eW(),!0)
 f=J.D(e.a.h(0,"value")).split(":")
 n.k1=f[0]
 n.k2=f[1]
-case 9:s=1
-break
-case 1:return A.k(q,r)
+case 9:case 1:return A.k(q,r)
 case 2:return A.j(o,r)}})
 return A.l($async$mu,r)},
 KH(a){return this.aoq(a)},
@@ -107827,7 +107829,7 @@ s=r}else s=B.Fo
 r=t.p
 a=A.ae(A.a([s,B.ap,A.al(A.a([A.z(a.b,f,f,f,B.lQ,f,f,f),B.a2,A.z(a.a,f,f,f,B.lQ,f,f,f)],r),B.a6,B.ao,B.p)],r),B.h,B.ao,B.p,f)
 s=g.f
-q=A.z(s.h(0,e)==null||s.h(0,d)==null?"You're not a member of this club.":"Sunrise: "+A.e(s.h(0,e))+" | Sunset: "+A.e(s.h(0,d))+" in your location",f,f,f,B.dZ,f,f,f)
+q=A.z(s.h(0,e)==null||s.h(0,d)==null?"Sunset and Sunrise are not available.":"Sunrise: "+A.e(s.h(0,e))+" | Sunset: "+A.e(s.h(0,d))+" in your location",f,f,f,B.dZ,f,f,f)
 p=A.z("Your distance in this tournament is "+A.e(s.h(0,"visitorDistance")),f,f,f,B.bp,f,f,f)
 o=g.r
 n=o===0
